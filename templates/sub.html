@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Odigo {% endblock %}
+{% block body %}
+  <div class="heading">Приветствую на молодом канале FLEX</div>
+  <div class="description">FLEX-это канал где я показываю процесс похождения или геймплей разных игр. В основном я играю на телефоне, но на канале вы также время от времени можете встретить прохождение майнкрафта и не только на компьютере! <strong>А вы уже подписались на канал?</strong></div>
+  {% if message %}
+  	{{ message }}
+  {% endif %}
+{% endblock %}

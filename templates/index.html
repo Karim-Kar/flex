@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Flex {% endblock %}
+{% block body %}
+  <div class="heading">Приветствую на молодом канале FLEX</div>
+  <div class="description">FLEX-это канал где я показываю процесс похождения или геймплей разных игр. В основном я играю на телефоне, но на канале вы также время от времени можете встретить прохождение майнкрафта и не только на компьютере! <strong>А вы уже подписались на канал?</strong></div>
+  <form action="" method="POST">
+  	<input type="radio" name = "YesOrNo" class="yes" value="yes"><div class="content_yes">ДА</div>
+  	<input type="radio" name = "YesOrNo" class="no" value="no"><div class="content_no">Нет</div>
+  	<button class = "sub">Отправить</button>
+  </form>
+  {% if message %}
+  	<a class = "message">{{ message }}</a>
+  {% endif %}
+{% endblock %}

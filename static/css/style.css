@@ -1,0 +1,119 @@
+
+
+body{
+  margin: 0;
+  background: url("../img/bg.jpg");
+}
+
+.logo{
+position: absolute;
+left: 191px;
+right: 488px;
+top: 30px;
+float: left;
+color: #000;
+}
+
+.adress{
+  position: absolute;
+  top: 57px;
+  left: 761px;
+  right: 82px;
+  color: #000;
+  text-decoration: none;
+}
+
+.adress4{
+  position: absolute;
+  top: 57px;
+  left: 903px;
+  right: 82px;
+  color: #000;
+  text-decoration: none;
+}
+
+.adress3{
+  position: absolute;
+  top: 57px;
+  left: 1061px;
+  right: 82px;
+  color: #000;
+  text-decoration: none;
+}
+
+.heading{
+  font-family: 'Lato' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+
+  position: absolute;
+  top: 263px;
+  left: 191px;
+  width: 619px;
+  height: 121px;
+  color: #000;
+}
+
+.description{
+  color: #000;
+  font-weight: 150;
+  font-size: 20px;
+  line-height: 24px;
+
+  width: 750px;
+  position: absolute;
+  top: 450px;
+  left: 191px;
+}
+
+.yes{
+  position: absolute;
+  top: 550px;
+  left: 192px;
+}
+
+.no{
+  position: absolute;
+  top: 550px;
+  left: 550px;
+}
+
+.content_yes{
+  position: absolute;
+  top: 550px;
+  left: 235px;
+  color: #000;
+}
+
+.content_no{
+  position: absolute;
+  top: 550px;
+  left: 593px;
+  color: #000;
+}
+
+.sub{
+  position: absolute;
+  top: 535px;
+  left: 906px;
+  color: #000;
+  background-color: #0c0;
+  width: 171px;
+  height: 58px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+strong{
+  color: #c00;
+}
+
+.message{
+  position: absolute;
+  top: 590px;
+  left: 192px;
+  color: #04f;
+  font-size: 30px;
+}
